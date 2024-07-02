@@ -1,0 +1,31 @@
+[alias]
+  co = checkout
+  br = branch
+  ci = commit
+  cl = clone
+  st = status
+  a = add
+  pu = push
+  pl = pull
+  d = diff
+  cp = cherry-pick
+  rb = rebase
+[core]
+	editor = nvim
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+[pull]
+	rebase = true
+[init]
+	defaultBranch = main
+	templatedir = " "
+[http]
+	sslVerify = false
+[push]
+  autoSetupRemote = true
+[user]
+  name = "Viraj Patil"
+  email = "virajpatil2712@gmail.com"
