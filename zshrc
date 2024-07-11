@@ -108,11 +108,12 @@ export LC_ALL="en_US.UTF-8"
 
 
 # export PATH="/opt/homebrew/opt/openjdk@11/bin:$PATH"
-export PATH="/opt/homebrew/opt/openjdk@17/bin:/opt/homebrew/bin:$PATH"
+export PATH="/opt/homebrew/bin:/Applications/IntelliJ IDEA.app/Contents/MacOS:$PATH"
 
 # Example aliases
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias zshconfig="vim ~/.zshrc"
+alias idea="open -na \"IntelliJ IDEA.app\" --args "
 
 #intel brew paths
 #source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
